@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/css.css" />
+    <title>Ale HF</title>
+  </head>
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <nav class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="om.html">Nyheter</a>
+      <!-- Basically Nyheter om klubben -->
+      <a href="lag1.html">Herrar</a>
+      <!-- Basically lagets nästa matcher, senaste match och hela tabellen, kanske spelare i laget -->
+      <a href="lag2.html">Juniorer</a>
+      <!-- Basically lagets nästa matcher, senaste match och hela tabellen, kanske spelare i laget -->
+      <a href="kontakt.html">Kontakt</a>
+      <!-- Footern typ med info om laget och kanseli osv. -->
+      <a href="javascript:void(0);" class="icon" onclick="One()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+    <header class="header-image">
+      <div id=container>
+        <h1 id = "header-text1">Ales</h1> 
+      <img class="logo2" src="img/5644.svg" alt="Ale HF Logga" /> 
+      <div id=flip>
+          <div><div>Stolthet</div></div>
+          <div><div>Lag</div></div>
+          <div><div>Förening</div></div>
+        </div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <article class="match-a">
+          <h4>Herrar Nästa Match</h4>
+          <div class="wrapper-match">
+            <div>
+              <div>
+                <div class="match-logo-a">
+                  <img
+                    src="img/5644.svg"
+                    class="responsive"
+                    alt="Ale HF Logga"
+                  />
+                </div>
+                <div class="match-logo-b">
+                  <img
+                    src="img/1200px-IK_Savehof_logo.svg.png"
+                    class="responsive"
+                    alt="Sävehof Logga"
+                  />
+                </div>
+                <div class="match-datum">2020-02-17</div>
+                <div class="match-tid">19:30</div>
+                <div class="match-lag">Ale HF vs IK Sävehof</div>
+              </div>
+            </div>
+          </div>
+        </article>
+      <section class="table1">
+        <div class="table-title">
+          <h3>Tabell Herrar Top 5</h3>
+        </div>
+        <table class="table-fill">
+          <thead>
+            <tr>
+              <th class="text-left">Lag</th>
+              <th class="text-left">Poäng</th>
+            </tr>
+          </thead>
+          <tbody class="table-hover">
+            <tr>
+              <td class="text-left">Ale HF</td>
+              <td class="text-left">25</td>
+            </tr>
+            <tr>
+              <td class="text-left">IK Sävehof</td>
+              <td class="text-left">22</td>
+            </tr>
+            <tr>
+              <td class="text-left">HK Kelt</td>
+              <td class="text-left">17</td>
+            </tr>
+            <tr>
+              <td class="text-left">AIK</td>
+              <td class="text-left">17</td>
+            </tr>
+            <tr>
+              <td class="text-left">Särö HK</td>
+              <td class="text-left">16</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+        <article class="match-b">
+          <h4>Junior-Lag Nästa Match</h4>
+          <div class="wrapper-match">
+            <div>
+              <div>
+                <div class="match-logo-a">
+                  <img
+                    src="img/5644.svg"
+                    class="responsive"
+                    alt="Ale HF Logga"
+                  />
+                </div>
+                <div class="match-logo-b">
+                  <img
+                    src="img/1200px-IK_Savehof_logo.svg.png"
+                    class="responsive"
+                    alt="Sävehof Logga"
+                  />
+                </div>
+                <div class="match-datum">2020-02-21</div>
+                <div class="match-tid">17:25</div>
+                <div class="match-lag">Ale HF vs IK Sävehof</div>
+              </div>
+            </div>
+          </div>
+        </article>
+      <section class="table2">
+        <div class="table-title">
+          <h3>Tabell Juniorer Top 5</h3>
+        </div>
+        <table class="table-fill">
+          <thead>
+            <tr>
+              <th class="text-left">Lag</th>
+              <th class="text-left">Poäng</th>
+            </tr>
+          </thead>
+          <tbody class="table-hover">
+            <tr>
+              <td class="text-left">Ale HF</td>
+              <td class="text-left">22</td>
+            </tr>
+            <tr>
+              <td class="text-left">RIK</td>
+              <td class="text-left">22</td>
+            </tr>
+            <tr>
+              <td class="text-left">Baltic</td>
+              <td class="text-left">19</td>
+            </tr>
+            <tr>
+              <td class="text-left">ÖIK</td>
+              <td class="text-left">18</td>
+            </tr>
+            <tr>
+              <td class="text-left">Särö HK</td>
+              <td class="text-left">16</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+        <div class="om-media-object">
+            <span class="sub-title">Senaste nyheten</span>
+            <h5>Segertåget går vidare</h5>
+            <p class="om-klubben-p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, nihil corporis? Maiores perferendis cupiditate mollitia consequuntur quis molestiae. Debitis nemo magnam sed laborum rerum<span id="dots">...</span
+              ><span id="more"
+                >erisque enim ligula venenatis dolor. Maecenas nisl est,
+                ultrices nec congue eget, auctor vitae massa. Fusce luctus
+                vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed
+                ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
+                imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+                venenatis. Integer fringilla congue eros non fermentum. Sed
+                dapibus pulvinar nibh tempor porta.
+                <br><img src="img/700x500px.png" class="newspic" alt="om-"></span
+              >
+            </p>
+            <button onclick="Two()" id="myBtn" class="button bouncy">Läs Mer</button>
+        </div>        
+        <div class="om-media-object-hide">
+            <span class="sub-title">Senaste nyheten</span>
+            <h5>Lorem ipsum dolor sit</h5>
+            <p class="om-klubben-p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, nihil corporis? Maiores perferendis cupiditate mollitia consequuntur quis molestiae. Debitis nemo magnam sed laborum rerum
+              scel<span id="dots2">...</span
+              ><span id="more2"
+                >erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
+                nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue
+                ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum
+                dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
+                turpis. Donec vitae dui eget tellus gravida venenatis. Integer
+                fringilla congue eros non fermentum. Sed dapibus pulvinar nibh
+                tempor porta.<br><img src="img/700x500px.png" class="newspic" alt="Nyhetsbild"></span
+              >
+            </p>
+            <button onclick="Three()" id="2myBtn" class="button bouncy" >Läs Mer</button>
+        </div>
+    </div>
+    <footer>
+      <div class="div-question">
+        Har du en fråga? Maila oss på
+        <a href="mailto:example@example.com">exempel@exempel.com</a>
+      </div>
+      <div>
+        <a class="social" href="#" >Facebook</a>
+        <a class="social" href="#" >Twitter</a>
+        <a class="social" href="#" >Instagram</a>
+        <a class="social" href="#" >Youtube</a>
+      </div>
+      <div>
+        <a class="social" href="#"
+          ><img src="img/f_logo_RGB-Blue_1024.png" alt="Facebook Logga"
+        /></a>
+        <a class="social" href="#"
+          ><img src="img/Twitter_bird_logo_2012.svg.png" alt="Twitter Logga"
+        /></a>
+        <a class="social" href="#"
+          ><img
+            src="img/1200px-Instagram_logo_2016.svg.webp"
+            alt="Instagram Logga"
+        /></a>
+        <a class="social" href="#"
+          ><img
+            src="/img/1280px-YouTube_full-color_icon_(2017).svg.webp"
+            alt="Youtube Logga"
+        /></a>
+      </div>
+      <div>
+        Ales största och bästa handbollsklubb. <span class="name">Ale HF</span>.
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
